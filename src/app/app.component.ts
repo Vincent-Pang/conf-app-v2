@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { FiltersComponent } from './filters/filters.component'
-import { TalksComponent }  from './talks/talks.component'
+import { FiltersComponent } from './filters/filters.component';
+import { TalksComponent }  from './talks/talks.component';
 
 @Component({
   moduleId: module.id,
@@ -10,7 +10,7 @@ import { TalksComponent }  from './talks/talks.component'
   directives: [FiltersComponent, TalksComponent],
 })
 export class AppComponent {
-  search: string = "";
+  search: string = '';
 
   onFilter(value) {
     this.search = value;

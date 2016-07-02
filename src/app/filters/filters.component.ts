@@ -18,5 +18,5 @@ export class FiltersComponent {
 
   onClick(value) {
     this.filter.emit(value);
-  } 
+  }
 }

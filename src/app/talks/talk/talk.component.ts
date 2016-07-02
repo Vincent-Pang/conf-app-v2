@@ -1,9 +1,9 @@
 import { Component, Input, Output, OnChanges, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
 
 import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
-import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button'
+import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
 
-import { Talk } from '../talk.model'
+import { Talk } from '../talk.model';
 
 @Component({
   moduleId: module.id,
@@ -17,7 +17,7 @@ import { Talk } from '../talk.model'
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TalkComponent implements OnChanges {
-  @Input() talk: Talk
+  @Input() talk: Talk;
   @Output() watched = new EventEmitter();
   @Output() rated = new EventEmitter();
 

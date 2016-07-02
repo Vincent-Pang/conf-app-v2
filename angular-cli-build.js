@@ -18,6 +18,7 @@ module.exports = function(defaults) {
       '@angular/**/*.+(js|js.map)',
       '@angular2-material/**/*.+(js|js.map)',
       'immutable/dist/**/*.+(js|js.map)',
+      'lodash/lodash.js',
     ]
   });
 };

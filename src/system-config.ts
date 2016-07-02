@@ -9,6 +9,7 @@
 const map: any = {
   'immutable': 'vendor/immutable/dist/immutable.js',
   '@angular2-material': 'vendor/@angular2-material',
+  'lodash': 'vendor/lodash/lodash.js'
 };
 
 /** User packages configuration. */
@@ -33,6 +34,9 @@ const packages: any = {
     defaultExtension: 'js',
     main: 'card.js'
   },
+  'lodash': {
+    format: 'cjs'
+  },
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -44,7 +48,7 @@ const barrels: string[] = [
   '@angular/core',
   '@angular/common',
   '@angular/compiler',
-  '@angular/forms', 
+  '@angular/forms',
   '@angular/http',
   '@angular/router',
   '@angular/platform-browser',

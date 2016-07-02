@@ -9,7 +9,7 @@ interface T {
     rated: boolean;
 }
 
-const R: {new(p:T): T} = <any>Record({
+const R: {new(p: T): T} = <any>Record({
     id: null,
     title: null,
     speaker: null,
